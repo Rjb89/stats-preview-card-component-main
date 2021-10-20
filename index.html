@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- start header section -->
+
+    <!-- end header section -->
+
+    <!-- start main section  -->
+    <div class="card">
+      <div class="main_content">
+        <h1 class="heading_tittle">
+          Get <span class="accent">insights</span> that help your business grow.
+        </h1>
+        <p class="descreption">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="follower_section">
+          <div class="stat_section">
+            <span class="stat">10k+</span>
+            <p class="stat_headings">companies</p>
+          </div>
+          <div class="stat_section">
+            <span class="stat">314</span>
+            <p class="stat_headings">templates</p>
+          </div>
+          <div class="stat_section">
+            <span class="stat">12m+</span>
+            <p class="stat_headings">queries</p>
+          </div>
+        </div>
+      </div>
+
+        <img class="main_img" src="images/image-header-desktop.jpg" alt="main image" />
   
-  <title>Frontend Mentor | Stats preview card component</title>
+    </div>
+    <!-- end main section  -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- start footer section  -->
 
-  Get insights that help your business grow.
+    <!-- end footer section  -->
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Rjb89">Rejeb Mohamed</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Rjb89">Rejeb Mohamed</a>.
+    </div>
+  </body>
 </html>
