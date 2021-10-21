@@ -48,6 +48,9 @@ body {
   color: var(--Slightly-transparent-white);
   line-height: 1.4;
   font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: start;
+  padding: 1.5rem;
 }
 .main_content {
   display: flex;
@@ -75,12 +78,34 @@ body {
 .stat_headings {
   color: var(--Slightly-transparent-white);
   font-size: 0.6em;
+  text-transform: uppercase;
 }
 .main_img {
   height: 100%;
-  width: 50%;
+  width: 45%;
   border-radius: 0 15px 15px 0;
+  filter: invert(39%) sepia(40%) saturate(717%) hue-rotate(237deg)
+    brightness(60%) contrast(150%);
 }
 .attribution {
   color: var(--White);
+}
+
+@media (max-width: 800px) {
+  .card {
+    flex-direction: column-reverse;
+  }
+  .main_img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  .follower_section {
+    flex-direction: column;
+  }
+  .heading_tittle {
+    font-size: 1.2em;
+  }
+  .descreption {
+    font-size: 0.7em;
+  }
 }
